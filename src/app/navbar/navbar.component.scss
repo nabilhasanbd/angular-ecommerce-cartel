@@ -1,0 +1,29 @@
+
+.navbar {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px; 
+  }
+  
+  .nav-link {
+    color: #007bff;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+  }
+  
