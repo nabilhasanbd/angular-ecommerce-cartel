@@ -1,3 +1,8 @@
+<mat-drawer-container style="height: 100vh;">
+  <mat-drawer  #drawer position="end" style="width: 500px;">
+    <ng-container *ngComponentOutlet="dynamicComponent"></ng-container>
+  </mat-drawer>
+  <mat-drawer-content>
 <div class="navbar">
   <div class="navbar-logo">
     <mat-icon>store</mat-icon>
@@ -66,12 +71,17 @@
     <button mat-icon-button>
       <mat-icon>search</mat-icon>
     </button>
-    <button mat-icon-button>
+    <button mat-icon-button (click)="openCart()">
       <mat-icon>shopping_cart</mat-icon>
     </button>
-    <button mat-button routerLink="/registration">Registration</button>
+    <button mat-button  routerLink="/login">
+      <mat-icon>person_add</mat-icon>
+    </button>
+  
   </div>
 </div>
 <div>
   <router-outlet></router-outlet>
 </div>
+</mat-drawer-content>
+</mat-drawer-container>

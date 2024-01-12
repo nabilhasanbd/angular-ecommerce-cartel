@@ -6,7 +6,7 @@
     margin: 10px;
     padding: 10px;
     font-size: 24px;
-    background-color: #66de53;
+    background-color: #276f3c;
     color: white;
   }
   
@@ -17,7 +17,7 @@
   .navbar-links,
   .navbar-actions {
     display: flex;
-    gap: 20px;
+ 
   }
   
 
@@ -27,5 +27,14 @@
 
   .navbar-actions button {
     color: white;
+  }
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  mat-icon {
+    margin-right: 4px; 
   }
   

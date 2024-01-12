@@ -7,9 +7,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [NavbarComponent],
-  imports: [CommonModule, NavbarRoutingModule, MatToolbarModule, MatIconModule, MatButtonModule, MatMenuModule],
+  imports: [CommonModule, NavbarRoutingModule, MatToolbarModule, MatIconModule, MatButtonModule, MatMenuModule, MatSidenavModule,
+    MatDialogModule],
 })
 export class NavbarModule {}
